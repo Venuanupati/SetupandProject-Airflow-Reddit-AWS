@@ -1,6 +1,6 @@
-# Reddit ETL Pipeline using Airflow and AWS
+# Reddit ELT Pipeline using Airflow and AWS
 
-This project implements an end-to-end ETL pipeline that extracts Reddit data using Apache Airflow, processes it, and loads it into AWS Redshift for warehousing and analysis.
+This project implements an end-to-end ELT pipeline that extracts Reddit data using Apache Airflow, processes it, and loads it into AWS Redshift for warehousing and analysis.
 
 ### 🚀 Tech Stack
 
@@ -24,7 +24,7 @@ This project implements an end-to-end ETL pipeline that extracts Reddit data usi
 - `dag1.py`: Extract Reddit data and store locally  
 - `dag2.py`: Upload CSV to S3  
 - `dag3.py`: Full pipeline – Reddit → S3 → Redshift  
-- `Reddit_ETL_Step_by_Step.pdf`: Complete setup and execution guide (already committed)
+- `Reddit_ELT_Step_by_Step.pdf`: Complete setup and execution guide (already committed)
 
 
 ### 🛠️ How to Run
